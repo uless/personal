@@ -32,13 +32,13 @@ favicon: https://i.ibb.co/sWj5qP8/IMG-2370-1.jpg
 
 # 菜单中的按钮
 navigation:
-  - name: Index|首页
+  - name: Index
     url: /
-  - name: About|关于
+  - name: About
     url: /about
-  - name: Archive|归档
+  - name: Archive
     url: /archive
-  - name: Tag|标签
+  - name: Tag
     url: /tags
 
 # 每页的文章数
@@ -55,7 +55,7 @@ footer-links:
   email: anqi.shao@wisc.edu
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: FromEndWorld/loffer #https://github.com/<>
+  github: https://github.com/uless
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
