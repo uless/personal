@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Academic
-1. BS in Life Sciences, MS in Communication. Pursing a PhD in Life Science Communication. Roses are red and violets are blue, rose violet are purple.
+1. BS in Life Sciences, MS in Communication. Pursing a PhD in Life Science Communication. Roses are red and violets are blue, rose violets are purple.
 2. Good at computational analysis. As everyone else I use R and Python. I also use NetLogo for agent-based modeling analysis.
 3. Generally interested in misinformation/disinformation/conspiracies. Recently interested in scientists' images delivered by government media, and fake medicine under the veil of patriotism.
 4. I'm competent in breaking the sterotypes of (1) Asian students are hardworking and (3) Asian students are good at math.
