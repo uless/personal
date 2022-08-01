@@ -22,7 +22,7 @@ toc: true
 ![实际行程图](https://s2.loli.net/2022/08/02/hn1PNl7XGDfJ5Ck.jpg)
 
 ## 本人锐评该行程
-1. 由于与对象同行，因此旅途中几乎未到访任何博物馆展馆等。也可能美国确实就不应该像欧洲一样游览。环湖历史可以查看这本书籍：[密歇根湖畔的历史遗迹（英文）](http://www.thriftbooks.com/w/around-the-shores-of-lake-michigan-a-guide-to-historic-sites_margaret-beattie-bogue/547577/item/7704654/?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN2V3xVqrP27jbXAiFF_fy8dR_q1G36qoDPf_kQMsNw2rxpRomeLMIkaAmGzEALw_wcB#idiq=7704654&edition=4299114/ "book"）  
+1. 由于与对象同行，因此旅途中几乎未到访任何博物馆展馆等。也可能美国确实就不应该像欧洲一样游览。环湖历史可以查看这本书籍：[密歇根湖畔的历史遗迹（英文）]（https://www.amazon.com/Around-Shores-Lake-Michigan-Historic/dp/0299100049 "book"）  
 2. 如果你不是橄榄球队粉丝，绿湾真的不好玩，真的。  
 3. 美国乡下孩子确实单纯可爱。此处单纯指可能意识不到自己对你明显的种族微冒犯（racial microagression）；此处可爱指的是当被问及起本店的推荐食物时，支支吾吾乃至胡编乱造的情态。  
 4. 在湖边平均每天看到3次爸爸带着儿子玩打水漂，1次男生给女朋友表演打水漂，1次路人走着走着突然开始打水漂。  
