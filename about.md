@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 10 Things about Myself - 2021
+title: About
 permalink: /about/
 ---
 
