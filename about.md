@@ -7,4 +7,4 @@ permalink: /about/
 [Curriculum Vitae](https://anqishao.com/cv/ "CV") 
 
 
-[10 Things about myself](https://anqishao.com/about/ "about") 
+[10 Things about myself](https://anqishao.com/aboutmyself/ "about") 
