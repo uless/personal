@@ -6,7 +6,6 @@ author: Anqi
 tags: [project, en]
 comments: true
 toc: true
-pinned: true
 ---
 
 Current projects at hand & some future plans
