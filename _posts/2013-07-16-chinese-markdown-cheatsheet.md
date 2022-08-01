@@ -3,7 +3,7 @@ layout: post
 title: CV
 date: 2021-06-01
 Author: AS 
-tags: [CV] [en]
+tags: [CV, en]
 comments: true
 toc: true
 ---
