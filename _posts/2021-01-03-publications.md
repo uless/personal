@@ -6,6 +6,7 @@ Author: AS
 tags: [publication, en]
 comments: true
 toc: true
+pinned: true
 ---
 
 ## 2022  
