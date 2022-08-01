@@ -4,6 +4,9 @@ title: 10 Things about Myself - 2021
 permalink: /about/
 ---
 
+This is an over-casual self-introduction. Some of my friends said it read like a Tinder profile. 
+For formal information please check my CV here: [CV] (https://github.com/uless/personal/raw/master/archive/CV%20Anqi%20Shao.pdf/ "CV")
+
 Academic
 1. BS in Life Sciences, MS in Communication. Pursing a PhD in Life Science Communication. Roses are red and violets are blue, rose violets are purple.
 2. Good at computational analysis. As everyone else I use R and Python. I also use NetLogo for agent-based modeling analysis.
