@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 This is an over-casual self-introduction. Some of my friends said it read like a Tinder profile.   
-For formal information please check my CV here: shorturl.at/DOVX1
+For formal information please check my CV here: https://anqishao.com/cv/
 
 Academic
 1. BS in Life Sciences, MS in Communication. Pursing a PhD in Life Science Communication. Roses are red and violets are blue, rose violets are purple.
