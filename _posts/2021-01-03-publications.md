@@ -3,7 +3,7 @@ layout: post
 title: Publications
 date: 2022-01-03
 Author: AS 
-tags: [publication] [en]
+tags: [publication, en]
 comments: true
 toc: true
 ---
