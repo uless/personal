@@ -6,7 +6,7 @@ Author: AS
 tags: [research, en]
 comments: true
 toc: true
-pinned: true
+pinned: false
 ---
 
 [CMRC-WebScrapers and API](https://anqishao.com/CMRG_talk_2023/ "CMRC-WebScrapers and API")
