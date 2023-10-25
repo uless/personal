@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 谁需要买旅行纪念品 Who Wants Some Souvenirs
-date: 2023-04-13
+date: 1970-04-13
 Author: AS 
 tags: [diary, zh]
 comments: true
