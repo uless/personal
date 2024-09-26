@@ -17,4 +17,6 @@ My dissertation focus on the changing science information ecosystem with generat
 For more information, please check out my recent CV:
 [Curriculum Vitae](https://anqishao.com/cv/ "CV") 
 
+Not included in CV: My love and as a noob for ARPG (mainly souls/souls-like) and FPS games; My cat D.Va (she's now 5); My collection of tea, coffee, and craft beers (lagers only, sorry).
+
 *There are plenty of flaws in this study design seeing from 3 years later, but I regard it as a good practice.
