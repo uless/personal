@@ -21,6 +21,6 @@ The empirical parts of this dissertation include a content analysis of hallucina
 For more information, please check out my recent CV:
 [Curriculum Vitae](https://anqishao.com/cv/ "CV") 
 
-Not included in CV: My love and as a noob for ARPG (mainly souls/souls-like) and FPS games; My cat D.Va (she's now 6); My collection of tea, coffee, and craft beers (lagers only, sorry).
+Not included in CV: Bronze medal in a competitve eating in Shanghai (2014). My love and as a noob for ARPG (mainly souls/souls-like) and FPS games; My cat D.Va (she's now 6); My collection of tea, coffee, and craft beers (lagers only, sorry).
 
 *There are plenty of flaws in this study design seeing from 3 years later, but I regard it as a good practice.
