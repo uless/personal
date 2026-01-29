@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
 ---
 
 Hi! I’m Anqi (pronounced An-chee). I’m a full-stack scholar working on AI in communication, with research spanning human–AI interaction and public engagement with contested science and technology topics (including AI itself, of course).
