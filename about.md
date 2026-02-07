@@ -12,6 +12,8 @@ One strand of my research examines AI hallucinations (plausible yet inaccurate A
 
 I also work on AI as a public-facing communicator, including conversational systems used in crisis response, science education, and policy-relevant settings. This line of work looks at interaction design, user experience, and how communication choices shape engagement over time. All stories start with [this piece](https://www.nature.com/articles/s41598-024-51969-w).
 
+My teaching experience spans multiple communication courses, where I learned how to translate research concepts into classroom activities and engage students with different backgrounds and skill levels, to equip them for real world challenges. My most recent guest lecture was on working with unstructured user data (chatlogs), with a hands-on practice activity in AI-assisted content analysis with human-in-the-loop. [Slide deck & worksheet](https://docs.google.com/presentation/d/1x7-f9ATToOYFdhR829oqCM_wqiA8sorT/edit?usp=sharing&ouid=107697692803502831972&rtpof=true&sd=true)
+
 For publications, preprints, and ongoing work, please see my [Google Scholar page](https://scholar.google.com/citations?user=0523fg0AAAAJ).
 
 For more information, please check out my recent CV:
