@@ -16,8 +16,8 @@ My teaching experience spans multiple communication courses, where I learned how
 
 For publications, preprints, and ongoing work, please see my [Google Scholar page](https://scholar.google.com/citations?user=0523fg0AAAAJ).
 
-For more information, please check out my recent CV:
-[Curriculum Vitae](https://anqishao.com/cv/ "CV") 
+For more information, please check out my recent
+[Curriculum Vitae](https://github.com/uless/personal/raw/master/archive/AS_CV_Feb2026.pdf/).
 
 Footnotes & disclaimers:
 - “Anqi” means angel in Mandarin. I try my best to be one.
