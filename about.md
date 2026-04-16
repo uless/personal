@@ -10,7 +10,7 @@ permalink: /
 </div>
 
 <div id="content-en">
-  <p>Hi! I’m Anqi (pronounced An-chee). I’m a full-stack scholar working on AI in communication, with research spanning human–AI interaction and public engagement with contested science and technology topics (including AI itself, of course).</p>
+  <p>Hi! I’m Anqi (pronounced An-chee). I’m a full-stack scholar working on AI in communication, with research spanning human-AI interaction and public engagement with contested science and technology topics (including AI itself, of course).</p>
 
   <p>I earned my PhD in Science Communication at the University of Wisconsin-Madison in 2025, and I’m currently a postdoctoral researcher for <a href="https://azwaterbot.org">Waterbot</a> at Arizona State University. My work sits at the intersection of system building and empirical research, with a focus on how people interact with AI and how AI-mediated communication shapes understanding of contested topics in public life.</p>
 
