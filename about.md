@@ -4,9 +4,77 @@ title: About
 permalink: /
 ---
 
-<div class="language-switcher" style="margin-bottom: 1rem;">
-  <button id="lang-en-btn" onclick="switchLanguage('en')" style="margin-right: 0.5rem;">EN</button>
-  <button id="lang-zh-btn" onclick="switchLanguage('zh')">ZH</button>
+<style>
+  .language-switcher {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(4px);
+  }
+
+  .language-switcher-label {
+    font-weight: 600;
+    color: #999;
+    transition: color 0.2s ease;
+  }
+
+  .language-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+  }
+
+  .language-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .language-switch-track {
+    position: absolute;
+    inset: 0;
+    background-color: #34c759;
+    border-radius: 999px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+
+  .language-switch-track::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    top: 3px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+
+  .language-switch input:checked + .language-switch-track::before {
+    transform: translateX(20px);
+  }
+</style>
+
+<div class="language-switcher" aria-label="Language switcher">
+  <span id="lang-en-label" class="language-switcher-label">EN</span>
+  <label class="language-switch" for="lang-toggle">
+    <input id="lang-toggle" type="checkbox" role="switch" aria-label="Switch language between English and Chinese">
+    <span class="language-switch-track"></span>
+  </label>
+  <span id="lang-zh-label" class="language-switcher-label">ZH</span>
 </div>
 
 <div id="content-en">
@@ -56,24 +124,40 @@ permalink: /
 </div>
 
 <script>
+  function setLanguageLabelState(lang) {
+    var enLabel = document.getElementById('lang-en-label');
+    var zhLabel = document.getElementById('lang-zh-label');
+
+    if (lang === 'zh') {
+      enLabel.style.color = '#999';
+      zhLabel.style.color = '#111';
+    } else {
+      enLabel.style.color = '#111';
+      zhLabel.style.color = '#999';
+    }
+  }
+
   function switchLanguage(lang) {
     var enContent = document.getElementById('content-en');
     var zhContent = document.getElementById('content-zh');
-    var enBtn = document.getElementById('lang-en-btn');
-    var zhBtn = document.getElementById('lang-zh-btn');
+    var langToggle = document.getElementById('lang-toggle');
 
     if (lang === 'zh') {
       enContent.style.display = 'none';
       zhContent.style.display = 'block';
-      enBtn.style.fontWeight = 'normal';
-      zhBtn.style.fontWeight = 'bold';
+      langToggle.checked = true;
     } else {
       enContent.style.display = 'block';
       zhContent.style.display = 'none';
-      enBtn.style.fontWeight = 'bold';
-      zhBtn.style.fontWeight = 'normal';
+      langToggle.checked = false;
     }
+
+    setLanguageLabelState(lang);
   }
+
+  document.getElementById('lang-toggle').addEventListener('change', function (event) {
+    switchLanguage(event.target.checked ? 'zh' : 'en');
+  });
 
   switchLanguage('en');
 </script>
