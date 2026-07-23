@@ -2,7 +2,7 @@
   <header class="sidebar clearfix">
     <div class="site-info">
       {% if site.avatar %}
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
       {% endif %} 
       <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
       <p class="site-description">{{ site.description }}</p>
@@ -15,7 +15,7 @@
       {% if nav.url contains 'http://' or nav.url contains 'https://' %}
       <a href="{{ nav.url }}">{{ nav.name }}</a>
       {% else %}
-      <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
+      <a href="{{ site.baseurl }}{{ nav.url }}"{% if page.url == nav.url %} class="active" aria-current="page"{% endif %}>{{ nav.name }}</a>
       {% endif %}
       {% endfor %}
     </nav>
