@@ -36,6 +36,13 @@ body {
   background-color: $background-color;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: $base-font;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -808,33 +815,44 @@ footer {
 // Homepage language switcher
 .language-switcher {
   display: inline-flex;
-  gap: 4px;
   margin-bottom: 1.25rem;
-  padding: 4px;
-  background: $cream;
+  background: $warmWhite;
+  border: 1px solid $berry;
   border-radius: 999px;
+  overflow: hidden;
 
   button {
     appearance: none;
-    background: transparent;
+    background: $warmWhite;
     border: 0;
-    border-radius: 999px;
-    color: $ink;
+    color: $berry;
     cursor: pointer;
     font: 700 13px/1 $base-font;
     letter-spacing: 0.08em;
+    min-width: 52px;
     padding: 9px 14px;
     transition: background-color 0.2s ease, color 0.2s ease;
 
+    & + button {
+      border-left: 1px solid $berry;
+    }
+
     &:hover,
     &:focus-visible {
-      color: $marigold;
+      background: rgba($berry, 0.08);
+      color: $berry;
       outline: none;
     }
 
     &[aria-pressed="true"] {
       background: $berry;
       color: $warmWhite;
+
+      &:hover,
+      &:focus-visible {
+        background: darken($berry, 6%);
+        color: $warmWhite;
+      }
     }
   }
 }
