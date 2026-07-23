@@ -4,7 +4,7 @@ layout: default
 
 <article class="page">
 
-  <h1>{{ page.title }}</h1>
+  <h1{% if page.title_zh %} id="page-title" data-title-en="{{ page.title }}" data-title-zh="{{ page.title_zh }}"{% endif %}>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
