@@ -15,14 +15,32 @@
 /* BASE RULES */
 /**************/
 
+:root {
+  --color-ink: #193C34;
+  --color-leaf: #4F765D;
+  --color-marigold: #E8873A;
+  --color-berry: #B9415B;
+  --color-cream: #F5E6B8;
+  --color-background: #FFFDF7;
+}
+
 html {
   font-size: $base-font-size;
+  background: $background-color;
 }
 
 body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.7em;
+  background-color: $background-color;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: $base-font;
 }
 
 .container {
@@ -33,6 +51,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: $ink;
   line-height: 2em;
   margin: 1em 0 16px;
   padding: 0;
@@ -63,7 +82,7 @@ h3 {
 
 h4 {
   font-size: 20px;
-  color: $base-lighten-color;
+  color: $leaf;
 }
 
 h6 {
@@ -79,11 +98,7 @@ a {
   color: $link-color;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 
   &:hover, &:active {
     color: $link-lighten-color;
@@ -222,9 +237,10 @@ tbody tr:nth-child(odd) th {
 // Blockquote
 blockquote {
   font-weight: 300;
-  padding: 0 0 0 1.4rem;
   margin: 0 2rem 1rem 0;
   border-left: .2em solid $blockquote-border-color;
+  background: rgba($cream, 0.38);
+  padding: 0.75rem 1.25rem;
 
   p {
     color: $blockquote-color;
@@ -323,20 +339,20 @@ img {
   width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-color: $background-color;
+	background-color: $ink;
 	height: 100%;
 	top: 0;
 	left:0;
 	position: fixed;
 	z-index: 4;
-  border-right: 1px solid $divider-color;
+  border-right: 0;
 
   @include mobile {
     width: 100%;
     height: auto;
     padding-bottom: 24px;
     position: relative;
-    border-bottom: 1px solid $divider-color;
+    border-bottom: 4px solid $marigold;
     border-right: 0;
   }
 }
@@ -373,23 +389,33 @@ img {
     img {
       display: inline-block;
       border-radius: 2px;
+      box-shadow: 10px 10px 0 $marigold;
     }
   }
 }
 
 .site-name {
   margin: 0 auto;
-  color: $base-color;
+  color: $cream;
   cursor: pointer;
   font-family: $base-font;
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 1px;
+
+  &:after {
+    background: $berry;
+    content: "";
+    display: block;
+    height: 4px;
+    margin: 10px auto 0;
+    width: 42px;
+  }
 }
 
 .site-description {
   margin: 15px auto;
-  color: $base-lighten-color;
+  color: rgba($warmWhite, 0.78);
   font-size: 16px;
 
   @include mobile {
@@ -418,10 +444,23 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    color: $cream;
+    padding-bottom: 4px;
 
     @include mobile {
       margin: 0 10px;
-      color: $link-color;
+      color: $cream;
+    }
+
+    &:hover,
+    &:focus {
+      color: $marigold;
+    }
+
+    &.active {
+      border-bottom: 3px solid $berry;
+      color: $warmWhite;
+      font-weight: 600;
     }
   }
 }
@@ -431,10 +470,15 @@ nav {
 .wrapper-content {
   float: right;
   width: 70%;
+  background: $background-color;
+  min-height: 100vh;
+  padding: 55px 0;
 
   @include mobile {
     float: none;
     width: 100%;
+    min-height: 0;
+    padding: 30px 0;
   }
 }
 
@@ -472,8 +516,10 @@ nav {
 }
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $divider-color;
+  background: rgba($cream, 0.45);
+  border-left: 4px solid $leaf;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
 }
 
 .posts > .post:last-child {
@@ -521,7 +567,23 @@ nav {
 }
 
 .page {
-//  margin: 40px;
+  > h1 {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-top: 0;
+    position: relative;
+
+    &:after {
+      background: $marigold;
+      content: "";
+      height: 12px;
+      position: absolute;
+      right: -22px;
+      top: 7px;
+      width: 12px;
+    }
+  }
 
   @include mobile {
 //    margin: 24px;
@@ -711,7 +773,7 @@ footer {
 
   p {
     font-size: $small-font-size;
-    color: $base-lighten-color;
+    color: rgba($warmWhite, 0.72);
   }
 
   .svg-icon {
@@ -729,10 +791,10 @@ footer {
     svg {
       height: 20px;
       width: 20px;
-      fill: $base-lighten-color;
+      fill: $cream;
       
       &:hover {
-        fill: $link-lighten-color;
+        fill: $marigold;
       }
     }
 
@@ -750,9 +812,56 @@ footer {
   }
 }
 
+// Homepage language switcher
+.language-switcher {
+  display: inline-flex;
+  margin-bottom: 1.25rem;
+  background: $warmWhite;
+  border: 1px solid $berry;
+  border-radius: 999px;
+  overflow: hidden;
+
+  button {
+    appearance: none;
+    background: $warmWhite;
+    border: 0;
+    color: $berry;
+    cursor: pointer;
+    font: 700 13px/1 $base-font;
+    letter-spacing: 0.08em;
+    min-width: 52px;
+    padding: 9px 14px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    & + button {
+      border-left: 1px solid $berry;
+    }
+
+    &:hover,
+    &:focus-visible {
+      background: rgba($berry, 0.08);
+      color: $berry;
+      outline: none;
+    }
+
+    &[aria-pressed="true"] {
+      background: $berry;
+      color: $warmWhite;
+
+      &:hover,
+      &:focus-visible {
+        background: darken($berry, 6%);
+        color: $warmWhite;
+      }
+    }
+  }
+}
+
+.language-content[hidden] {
+  display: none;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "gitalk";
-
-
