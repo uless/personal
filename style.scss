@@ -648,22 +648,17 @@ nav {
 }
 
 .career-current {
-  background:
-    linear-gradient(135deg, rgba($neonPink, 0.07), rgba($electricCyan, 0.035)),
-    $warmWhite;
-  border: 1px solid rgba($berry, 0.25);
-  border-left: 4px solid $neonPink;
-  box-shadow: 0 10px 30px rgba($ink, 0.06);
-  margin: 1.35rem 0;
-  padding: 1rem 1.2rem;
+  border-left: 2px solid rgba($berry, 0.35);
+  margin: 1.1rem 0;
+  padding: 0.15rem 0 0.15rem 0.9rem;
 }
 
 .career-label {
-  color: $berry;
+  color: $leaf;
   display: block;
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   line-height: 1.4;
   margin-bottom: 0.35rem;
   text-transform: uppercase;

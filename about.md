@@ -11,21 +11,17 @@ permalink: /
 </div>
 
 <div id="content-en" class="language-content" lang="en">
-  <p>Hi! I’m Anqi (pronounced An-chee). I’m a full-stack scholar working on AI in communication, with research spanning human–AI interaction and public engagement with contested science and technology topics (including AI itself, of course).</p>
+  <p>Hi! I’m Anqi (pronounced An-chee), a full-stack scholar working on AI in communication. My research brings together human–AI interaction, science communication, and public engagement with contested technologies (including AI itself, of course).</p>
 
-  <p class="career-current"><span class="career-label">Current appointment</span>I’m an Assistant Professor in the <a href="https://jnm.olemiss.edu/">School of Journalism and New Media</a> at the University of Mississippi. My research and teaching focus on how people interact with AI, how AI communicates with different publics, and how AI-mediated communication shapes the understanding of contested topics in public life.</p>
+  <p class="career-current"><span class="career-label">Current appointment</span>I’m an Assistant Professor in the <a href="https://jnm.olemiss.edu/">School of Journalism and New Media</a> at the University of Mississippi.</p>
 
-  <p>Before joining Ole Miss, I was a Postdoctoral Research Scholar with the Arizona Water Innovation Initiative at Arizona State University, where I served as tech lead for <a href="https://azwaterbot.org">Waterbot</a>, an AI-powered public-facing science communication system. I earned my PhD in Science Communication at the University of Wisconsin-Madison in 2025. Across these roles, my work has combined system building with empirical research.</p>
+  <p>Before joining Ole Miss, I was a Postdoctoral Research Scholar with the Arizona Water Innovation Initiative at Arizona State University and tech lead for <a href="https://azwaterbot.org">Waterbot</a>, a public-facing AI science communication system. I earned my PhD in Science Communication at the University of Wisconsin-Madison in 2025.</p>
 
-  <p>One strand of my research examines AI hallucinations (plausible yet inaccurate AI outputs) and what happens after people encounter them. I map how these failures manifest in communication about contested topics. I also study how users revise beliefs, adjust trust, and change information-seeking behavior once errors become visible. To some extent, <a href="https://www.proquest.com/docview/3251610603?sourcetype=Dissertations%20&amp;%20Theses">my dissertation</a> work is basically a collection of my current empirical research toolkit.</p>
+  <p>My research follows two connected lines. First, I study AI hallucinations: how they appear in contested topics and how people revise beliefs, trust, and information-seeking after encountering them. <a href="https://www.proquest.com/docview/3251610603?sourcetype=Dissertations%20&amp;%20Theses">My dissertation</a> brings together much of this empirical toolkit. Second, I study AI as a public-facing communicator in crisis response, science education, and policy settings, with attention to interaction design and engagement over time. That line began with <a href="https://www.nature.com/articles/s41598-024-51969-w">this piece</a>.</p>
 
-  <p>I also work on AI as a public-facing communicator, including conversational systems used in crisis response, science education, and policy-relevant settings. This line of work looks at interaction design, user experience, and how communication choices shape engagement over time. All stories start with <a href="https://www.nature.com/articles/s41598-024-51969-w">this piece</a>.</p>
+  <p>In the classroom, I use applied, methods-oriented projects across communication theory, research methods, risk and health communication, and visual communication. One recent <a href="https://docs.google.com/presentation/d/1x7-f9ATToOYFdhR829oqCM_wqiA8sorT/edit?usp=sharing&amp;ouid=107697692803502831972&amp;rtpof=true&amp;sd=true">guest lecture</a> used chatlogs for hands-on, human-in-the-loop AI-assisted content analysis.</p>
 
-  <p>As a faculty member, I bring this research into the classroom through applied, methods-oriented learning. My teaching experience spans communication theory, research methods, risk and health communication, and visual communication. I translate research concepts into activities that equip students with different backgrounds and skill levels for real-world challenges. One recent <a href="https://docs.google.com/presentation/d/1x7-f9ATToOYFdhR829oqCM_wqiA8sorT/edit?usp=sharing&amp;ouid=107697692803502831972&amp;rtpof=true&amp;sd=true">guest lecture</a> focused on unstructured user data (chatlogs), with hands-on practice in human-in-the-loop, AI-assisted content analysis.</p>
-
-  <p>For publications, preprints, and ongoing work, please see my <a href="https://scholar.google.com/citations?user=0523fg0AAAAJ">Google Scholar page</a>.</p>
-
-  <p>For more information, please check out my recent <a href="https://github.com/uless/personal/raw/master/archive/AS_CV_Feb2026.pdf/">Curriculum Vitae</a>.</p>
+  <p>See my <a href="https://scholar.google.com/citations?user=0523fg0AAAAJ">Google Scholar page</a> for publications and ongoing work, or my <a href="https://github.com/uless/personal/raw/master/archive/AS_CV_Feb2026.pdf/">Curriculum Vitae</a> for more detail.</p>
 
   <p>Footnotes &amp; disclaimers:</p>
   <ul>
