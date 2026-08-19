@@ -8,14 +8,19 @@
 // 默认为teal，如果需要更换，可以直接将teal并替换成你想要的颜色，例如，查找teal，替换indigo，全部替换，保存，push，完成！
 
 
-// Desert Garden palette
-$ink: #193C34;
-$leaf: #4F765D;
-$marigold: #E8873A;
-$berry: #B9415B;
-$cream: #F5E6B8;
-$warmWhite: #FFFDF7;
-$blue: $leaf;
+// Neon Academic palette
+// Deep navy keeps the site professional; hot pink and gold are reserved for
+// links, rules, focus states, and other small high-attention details.
+$ink: #090D1F;
+$leaf: #56617A;
+$marigold: #F6B900;
+$berry: #C20A68;
+$cream: #E8EAF2;
+$warmWhite: #F8F8FC;
+$neonPink: #FF2E93;
+$electricCyan: #20B8C7;
+$midnight: #111831;
+$blue: $electricCyan;
 
 // Grays
 $black: $ink;
@@ -48,9 +53,9 @@ $background-lighten-color: rgba($cream, 0.45);
 
 $text-color: $base-color;
 $link-color: $berry;
-$link-lighten-color: $marigold;
+$link-lighten-color: #92054E;
 $link-bghv-color: rgba($cream, 0.65);
-$divider-color: rgba($leaf, 0.25);
+$divider-color: rgba($ink, 0.14);
 
 $error-color: $berry;
 
@@ -64,12 +69,12 @@ $footnote-link-border-color: rgba($leaf, 0.3);
 $footnote-link-background-over-color: $cream;
 
 // $selection-color: $oc-black;
-$selection-background-color: $cream;
+$selection-background-color: rgba($marigold, 0.45);
 
 $tag-index-label-background-color: $cream;
 $tag-index-count-background-color: rgba($marigold, 0.16);
 
-$footer-border-color: rgba($cream, 0.2);
+$footer-border-color: rgba($neonPink, 0.32);
 $footer-background-color: $ink;
 
 // List
